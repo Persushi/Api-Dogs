@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.dogCard{
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    width: 350px;
+    height: 300px;
+    background-position: center ;
+    background-size: cover ;
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transition: all 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 4px solid #f4511e;
+}
+.dogCard h2{
+    font-size: 32px;
+    margin-top: 0;
+    width: 100%;
+    background-color: #ff997acb;
+    color: rgb(255, 255, 255);
+    transition: all .5s;
+}
+.dogCard h3{
+    margin: 0;
+    width: 100%;
+    background-color: #ff997acb;
+    color: rgba(255, 255, 255, 0.616);
+    transition: all .5s;
+}
+.dogCard:hover h3{
+    padding-bottom: 5%;
+    margin:0;
+    background-color: #ff774ef3;
+    color: rgb(255, 255, 255);
+}
+
+.dogCard:hover{
+    transform: scale(1.15);
+}
+.dogCard:hover h2{
+    margin-bottom: 0;
+    padding:0;
+    background-color: #ff774ef3;
+    color: rgb(255, 255, 255);
+}
+.dogContainer{
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.pagination{
+    padding:5px;
+}
+.pagination span.active {
+    background-color: #ff0000;
+    color: white;
+}
+.pagination span{
+    padding:8px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s;
+    background-color: #ff774ef3;
+}
+.resultsContainer{
+    text-align: center;
+}
+.alerta.gris{
+    font-size: 30px;
+    background-color: gray;
+    color: white 
+}
+.pagination span:hover:not(.active) {background-color: #df8e75;}

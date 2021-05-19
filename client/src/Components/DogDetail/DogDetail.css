@@ -1,0 +1,57 @@
+.contenedorFlotante{
+    position: fixed;
+    top: 0px;
+    z-index: 200;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.726);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dogDetails{
+    width: 60vw;
+    height: 80vh;
+    background-size: cover ;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: orange 2px solid;
+
+}
+.dogDetails img{
+    width: 60vw;
+    height: 60vh;
+    align-self: center;
+    object-fit: contain;
+}
+.dogText{
+    font-family: 'Montserrat', sans-serif;
+    align-self: center;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 100%;
+}
+.dogText h4{
+    margin: 10px;
+}
+.doge{
+    animation:spin 3s linear infinite;
+}
+
+.button.button-cerrar{
+    opacity: 0.8;
+    background-color: rgb(255, 0, 0);
+    margin: 0;
+}
+
+.btn{
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bolder;
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

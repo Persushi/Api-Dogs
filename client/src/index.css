@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');;
+body {
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./Assets/img/dog_paw.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position-y: bottom;
+  background-position-x:center;
+  background-attachment: fixed;
+  
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

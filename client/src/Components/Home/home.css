@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+.red{
+    color: red;
+}
+.blue{
+    color:rgb(37, 37, 201)
+}
+.yellow{
+    color:rgb(194, 194, 20)
+}
+
+.containerHome{
+    background-image: url(../../Assets/img/Doge_frens.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: bottom;
+    background-position-x:center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 200;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:white
+}
+.textHome{
+    transition: all 0.5s;
+      font-size: 100px;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+}
+.textHome:hover{
+    font-size: 130px;
+    transition: all 0.5s;
+    
+}
